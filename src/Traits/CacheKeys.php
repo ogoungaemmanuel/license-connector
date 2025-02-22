@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelReady\LicenseConnector\Traits;
+namespace Xslain\LicenseConnector\Traits;
 
 trait CacheKeys
 {

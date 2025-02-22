@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelReady\LicenseConnector\Services;
+namespace Xslain\LicenseConnector\Services;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
 
-use LaravelReady\LicenseConnector\Traits\CacheKeys;
-use LaravelReady\LicenseConnector\Exceptions\AuthException;
+use Xslain\LicenseConnector\Traits\CacheKeys;
+use Xslain\LicenseConnector\Exceptions\AuthException;
 
 class ConnectorService
 {

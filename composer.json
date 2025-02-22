@@ -1,5 +1,5 @@
 {
-    "name": "laravel-ready/license-connector",
+    "name": "xslain/license-connector",
     "description": "Connector package for License Server",
     "type": "library",
     "license": "MIT",
@@ -16,8 +16,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/laravel-ready/license-server/issues",
-        "source": "https://github.com/laravel-ready/license-server"
+        "issues": "https://github.com/xslain/license-server/issues",
+        "source": "https://github.com/xslain/license-server"
     },
     "require": {
         "php": "^8.2 || ^8.1 || ^8.0",
@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelReady\\LicenseConnector\\": "src/"
+            "Xslain\\LicenseConnector\\": "src/"
         }
     },
     "autoload-dev": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelReady\\LicenseConnector\\LicenseConnectorServiceProvider"
+                "Xslain\\LicenseConnector\\LicenseConnectorServiceProvider"
             ],
             "aliases": {
-                "LicenseConnector": "LaravelReady\\LicenseConnector\\Facades\\LicenseConnector"
+                "LicenseConnector": "Xslain\\LicenseConnector\\Facades\\LicenseConnector"
             }
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelReady\LicenseConnector\Exceptions;
+namespace Xslain\LicenseConnector\Exceptions;
 
 use Exception;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelReady\LicenseConnector;
+namespace Xslain\LicenseConnector;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 
-use LaravelReady\LicenseConnector\Services\ConnectorService;
-use LaravelReady\LicenseConnector\Http\Middleware\LicenseGuardMiddleware;
+use Xslain\LicenseConnector\Services\ConnectorService;
+use Xslain\LicenseConnector\Http\Middleware\LicenseGuardMiddleware;
 
 final class LicenseConnectorServiceProvider extends ServiceProvider
 {
